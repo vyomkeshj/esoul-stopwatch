@@ -1,0 +1,19 @@
+{
+  "manifestVersion": 1,
+  "id": "stopwatch-gh",
+  "name": "Stopwatch (from GitHub)",
+  "version": "0.1.0",
+  "description": "The stopwatch, installed from its own GitHub repository.",
+  "applicationType": "plugin_stopwatch_gh",
+  "entry": "app",
+  "icon": "Timer",
+  "kickableTasks": [
+    "tick"
+  ],
+  "ops": [
+    "read-state"
+  ],
+  "routes": [
+    "ticks"
+  ]
+}
