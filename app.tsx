@@ -34,7 +34,7 @@ import {
 } from "esoul-sdk";
 import { StopwatchUi } from "./ui/stopwatch-ui";
 
-export const APP_TYPE = "plugin_stopwatch_gh_gh";
+export const APP_TYPE = "plugin_stopwatch_gh";
 /** One authoritative tick a second; the UI runs at frame rate between them. */
 export const TICK_MS = 1000;
 /** The fold is read this often: a stop is seen within half a second. */
